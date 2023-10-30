@@ -1,0 +1,383 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.list{
+  display: flex;
+  list-style-type:none;
+  margin-right: 4%;
+}
+
+.navbar{
+  justify-content:flex-end;
+  display: flex;
+  background-color: white;
+  height:15%;
+  width: 100%;
+}
+
+.listi{
+  color: blue;
+  margin-right: 7px;
+}
+
+.liste{
+  color: blue;
+  margin-right: 7px;
+}
+
+.listy{
+  color: blue;
+  margin-right: 7px;
+}
+
+.navbar button{
+  height:20%;
+  width: 8%;
+  background-color: red;
+  outline:none;
+  border: none;
+  color: white;
+  border-radius: 14px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.navbar img{
+  margin-right:45%;
+  height: 35%;
+  width: 12%;
+}
+
+
+.page{
+  height:85% ;
+  width: 100%;
+  background-image: url(/img/background\ hellochef.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pic .box .variety .salmon{
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.page p{
+  margin-top: 2px;
+  font-size: 25px;
+  color: rgb(82, 81, 81);
+}
+
+
+
+.page button{
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px
+}
+
+
+
+.mainbox{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.box img {
+  height: 30vh;
+  border-radius: 10px;
+}
+
+
+.box h2 {
+  color: rgb(75, 74, 74);
+  font-size: 200;
+}
+
+.variety img {
+  height: 30vh;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.salmon img {
+  height: 30vh;
+  border-radius: 10px;
+}
+.salmon h4 {
+  font-size: 27px;
+  color: rgb(75, 74, 74);
+}
+
+.pink {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.fam{
+  height: 100%;
+  width: 50%;
+  background-image: url(/img/Family_cooking.jpg);
+  background-size: cover;
+}
+
+.fam img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.words{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(186, 146, 153);
+  
+}
+.words h1 {
+  color: red;
+}
+
+h1, h2, p{
+  /* padding: 20px; */
+   margin-left: 20px;
+
+}
+
+.words h2{
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.words button {
+
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 10%;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.cook {
+  height: 100vh;
+  width: 100%;
+}
+
+.dishes {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+  
+}
+.menu {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu img {
+  height: 57%;
+  width: 25%;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.button{
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.button button{
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  height: 90%;
+  width: 10%;
+}
+
+.pics{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(151, 147, 147, 0.176);
+
+}
+
+.pics img{
+  height: 28px;
+  width: 28px;
+}
+
+.images img{
+  height: 17%;
+  width: 15%;
+  margin-left:73px;
+  justify-content: center;
+  
+}
+
+.over h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cooked h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ratings p{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ratings h5{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+.hungry{
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/subscribe.webp);
+  background-size: cover;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.sub{
+  height: 50%;
+  width: 80%;
+  background-color:white;
+  border-radius: 12px;
+  display: flex;justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.sub h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top:45px;
+}
+
+
+.sub p{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sub1 input{
+  /* margin-left:255px; */
+  height: 78%;
+  width: 65%;
+  /* margin-bottom: 12px; */
+}
+
+.sub1 button{
+  height: 10%;
+  width: 30%;
+  background-color: red;
+  /* margin-bottom: 55px; */
+  border:none;
+  color: white;
+  height:35px;
+}
+
+
+
+
+.true{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.true img{
+  height: 35px;
+  width:105px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+
+
+.blog img{
+  height: 65px;
+  border-radius: 11px;
+  margin-left:25px ;
+}
+
+
+.final {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
